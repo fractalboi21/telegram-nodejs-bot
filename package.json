@@ -1,0 +1,22 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "trail and error",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro-bot",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "api"
+  ],
+  "author": "aakashbilly",
+  "license": "ISC",
+  "dependencies": {
+    "micro-bot": "^2.5.3",
+    "node-telegram-bot-api": "^0.59.0",
+    "telegraf": "^4.9.2"
+  }
+}
